@@ -41,7 +41,7 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>devops Releases Nexus Repository</name>
-	      <urlhttp://54.226.33.194:8081/repository/devops-release/></url>
+	      <url>http://54.226.33.194:8081/repository/devops-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
