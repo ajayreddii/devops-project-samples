@@ -19,6 +19,7 @@
           <name>Central</name>
           <url>https://repo1.maven.org/maven2</url>
        </repository>
+	</repository>
     </repositories>
     <dependencies>
         <dependency>
@@ -30,7 +31,24 @@
 		<dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>    		
+        </dependency>  
+	    <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>devops Releases Nexus Repository</name>
+	      <urlhttp://54.226.33.194:8081/repository/devops-release/></url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>devops Snapshot Nexus Repository </name>
+	      <url>http://54.226.33.194:8081/repository/devops-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+	
+	    
     </dependencies>
 
     <properties>
