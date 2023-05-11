@@ -37,7 +37,9 @@
     <properties>
         <java.version>1.8</java.version>
     </properties>
+	
    <distributionManagement>
+	   
 	    <repository>
 	      <id>nexus</id>
 	      <name>devops Releases Nexus Repository</name>
