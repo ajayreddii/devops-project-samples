@@ -14,11 +14,11 @@
         <version>1.5.7.RELEASE</version>
     </parent>
 	<repositories>
-       <repository>
+        <repository>
           <id>central</id>
           <name>Central</name>
           <url>https://repo1.maven.org/maven2</url>
-       </repository>
+        </repository>
 	</repository>
     </repositories>
     <dependencies>
@@ -33,7 +33,6 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>  
 	    <distributionManagement>
-	
 	    <repository>
 	      <id>nexus</id>
 	      <name>devops Releases Nexus Repository</name>
@@ -46,7 +45,7 @@
 	      <url>http://54.226.33.194:8081/repository/devops-snapshot/</url>
 	    </snapshotRepository>
 	    
-	</distributionManagement>
+	    </distributionManagement>
 	
 	    
     </dependencies>
